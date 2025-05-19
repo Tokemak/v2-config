@@ -44,6 +44,10 @@
           "address": "0x91517Ba3793394008c461498de4899EEc2DB1658"
         },
         {
+          "name": "Solver Exec (baseUSD)",
+          "address": "0xBFd49774CbdDAA201a7517938Cd4cEeBED2fe253"
+        },
+        {
           "name": "ZK Bridge",
           "address": "0x19E613AC726449154d47d5Aa156f6c91C5F1C3CF"
         }
