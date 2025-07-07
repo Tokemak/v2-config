@@ -8,27 +8,33 @@
       "serviceAccounts": [
         {
           "name": "Custom Oracle Executor",
-          "address": "0x8d096E2b5Fe29B914dB11F3ecE13b6E7F72fA2a2"
+          "address": "0x8d096E2b5Fe29B914dB11F3ecE13b6E7F72fA2a2",
+          "type": "pricing"
         },
         {
           "name": "Solver Exec (autoS)",
-          "address": "0x84C75b7C35c121849DA06DF6946A6C9179B5edE2"
+          "address": "0x84C75b7C35c121849DA06DF6946A6C9179B5edE2",
+          "type": "solver"
         },
         {
           "name": "Solver Exec (sonicUSD)",
-          "address": "0xE71beF438317dC39c2c946809831A87EcE048857"
+          "address": "0xE71beF438317dC39c2c946809831A87EcE048857",
+          "type": "solver"
         },
         {
           "name": "Liquidator",
-          "address": "0x28Fa1720cB4e311695CFaA726C2A34b028af0b97"
+          "address": "0x28Fa1720cB4e311695CFaA726C2A34b028af0b97",
+          "type": "rewards"
         },
         {
           "name": "Swap Route Watcher",
-          "address": "0x0a3A597058fc2A344cCA32653ca082C775d8925d"
+          "address": "0x0a3A597058fc2A344cCA32653ca082C775d8925d",
+          "type": "swaps"
         },
         {
           "name": "Debt Reporting",
-          "address": "0x6dE76a011706315bAf1eAad329B961B1B30D33C9"
+          "address": "0x6dE76a011706315bAf1eAad329B961B1B30D33C9",
+          "type": "debtReporting"
         }
       ]
     },
@@ -53,35 +59,43 @@
       "serviceAccounts": [
         {
           "name": "Custom Oracle Executor",
-          "address": "0x8CD98E74A5ef4020bcd6D0397EFe42C34Afa5f23"
+          "address": "0x8CD98E74A5ef4020bcd6D0397EFe42C34Afa5f23",
+          "type": "pricing"
         },
         {
           "name": "Debt Reporting",
-          "address": "0xb2A71EF7649B95d7d5A3b8084e619C381Fa79413"
+          "address": "0xb2A71EF7649B95d7d5A3b8084e619C381Fa79413",
+          "type": "debtReporting"
         },
         {
           "name": "Swap Route Watcher",
-          "address": "0xf772Fcd65aCAE9814e6E4b228e554c1054aE2765"
+          "address": "0xf772Fcd65aCAE9814e6E4b228e554c1054aE2765",
+          "type": "swaps"
         },
         {
           "name": "Incentive Harvester",
-          "address": "0xcA7d8b1F4398D11b302853d7fFd5D2b65073dE11"
+          "address": "0xcA7d8b1F4398D11b302853d7fFd5D2b65073dE11",
+          "type": "stats"
         },
         {
           "name": "Liquidator",
-          "address": "0xdEA337283410bAcC9418e13CbbB3b8F03dD2FBf7"
+          "address": "0xdEA337283410bAcC9418e13CbbB3b8F03dD2FBf7",
+          "type": "rewards"
         },
         {
           "name": "Solver Exec (baseETH)",
-          "address": "0x91517Ba3793394008c461498de4899EEc2DB1658"
+          "address": "0x91517Ba3793394008c461498de4899EEc2DB1658",
+          "type": "solver"
         },
         {
           "name": "Solver Exec (baseUSD)",
-          "address": "0xBFd49774CbdDAA201a7517938Cd4cEeBED2fe253"
+          "address": "0xBFd49774CbdDAA201a7517938Cd4cEeBED2fe253",
+          "type": "solver"
         },
         {
           "name": "ZK Bridge",
-          "address": "0x19E613AC726449154d47d5Aa156f6c91C5F1C3CF"
+          "address": "0x19E613AC726449154d47d5Aa156f6c91C5F1C3CF",
+          "type": "stats"
         }
       ]
     },
@@ -124,71 +138,88 @@
       "serviceAccounts": [
         {
           "name": "Custom Oracle Executor",
-          "address": "0x1b9841A65c6777fdE03Be97C9A9E70C3d5C01E9c"
+          "address": "0x1b9841A65c6777fdE03Be97C9A9E70C3d5C01E9c",
+          "type": "pricing"
         },
         {
           "name": "Debt Reporting",
-          "address": "0x241b8f1fA50F1Ce8fb78e7824757280feEb2aea3"
+          "address": "0x241b8f1fA50F1Ce8fb78e7824757280feEb2aea3",
+          "type": "debtReporting"
         },
         {
           "name": "Swap Route Watcher",
-          "address": "0xB17b69B4Cbb288aD2Caee9De2d8C3AD3C80017e6"
+          "address": "0xB17b69B4Cbb288aD2Caee9De2d8C3AD3C80017e6",
+          "type": "swaps"
         },
         {
           "name": "Liquidator",
-          "address": "0x0b1EAA1CF011C80f075958Cf5B6bD49Abc3D7a72"
+          "address": "0x0b1EAA1CF011C80f075958Cf5B6bD49Abc3D7a72",
+          "type": "rewards"
         },
         {
           "name": "Points Boost",
-          "address": "0xa1c56731e180D7F43d06B9f65CecfE7A2F724dBE"
+          "address": "0xa1c56731e180D7F43d06B9f65CecfE7A2F724dBE",
+          "type": "stats"
         },
         {
           "name": "Solver Exec (autoETH)",
-          "address": "0xE08cC4Bc6BD77774fE107f7Ffb48adD75Ae53245"
+          "address": "0xE08cC4Bc6BD77774fE107f7Ffb48adD75Ae53245",
+          "type": "solver"
         },
         {
           "name": "Solver Exec (autoLRT)",
-          "address": "0x54baDF9b444bd38a2E3909287D7E4E954778AeF2"
+          "address": "0x54baDF9b444bd38a2E3909287D7E4E954778AeF2",
+          "type": "solver"
         },
         {
           "name": "Solver Exec (balETH)",
-          "address": "0x3D1f51c23d1586c062B4bECa120bfCAf064e0cdC"
+          "address": "0x3D1f51c23d1586c062B4bECa120bfCAf064e0cdC",
+          "type": "solver"
         },
         {
           "name": "Solver Exec (dineroETH)",
-          "address": "0x6ec140890269992964d98DAe4De023181F4eEAF7"
+          "address": "0x6ec140890269992964d98DAe4De023181F4eEAF7",
+          "type": "solver"
         },
         {
           "name": "Solver Exec (autoUSD)",
-          "address": "0x187dD9E0BE80972Ab2D14b5A5F69C1f5540Ace57"
+          "address": "0x187dD9E0BE80972Ab2D14b5A5F69C1f5540Ace57",
+          "type": "solver"
         },
         {
           "name": "Solver Exec (autoDOLA)",
-          "address": "0x0460aE025d45C570D40c369e06e943cEB931Ac10"
+          "address": "0x0460aE025d45C570D40c369e06e943cEB931Ac10",
+          "type": "solver"
         },
         {
           "name": "Incentive Harvester",
-          "address": "0xa83b79408d8dfc06dffbbea74a39ebd2769fb6e2"
+          "address": "0xa83b79408d8dfc06dffbbea74a39ebd2769fb6e2",
+          "type": "stats"
         },
         {
           "name": "Keeper Executor",
-          "address": "0x6b9d01f42a4e93aebd412c24d6f3b949eef500be"
+          "address": "0x6b9d01f42a4e93aebd412c24d6f3b949eef500be",
+          "type": "stats"
         },
         {
           "name": "Auto Rewards (Signer/RewardHash)",
-          "address": "0x923720b4aa90cdec2c241682f89e6bf02febd509"
+          "address": "0x923720b4aa90cdec2c241682f89e6bf02febd509",
+          "type": "stoke"
         },
         {
           "name": "Auto Rewards Liquidator",
-          "address": "0x44a427518a1AFD356dab0f4c521331F2c8771FA7"
+          "address": "0x44a427518a1AFD356dab0f4c521331F2c8771FA7",
+          "type": "stoke"
         },
         {
           "name": "Fluid Reward Claiming",
-          "address": "0x3096a687bafb44d81d294450da4b1cf9a38e401a"
+          "address": "0x3096a687bafb44d81d294450da4b1cf9a38e401a",
+          "type": "rewards"
         },
         {
           "name": "Morpho Reward Claiming",
-          "address": "0x77601882d70b3a391d2be4204c386d91037ac806"
+          "address": "0x77601882d70b3a391d2be4204c386d91037ac806",
+          "type": "rewards"
         }
       ]
     }
