@@ -1,6 +1,38 @@
 {
   "systems": [
     {
+      "chainId": "146",
+      "systemName": "gen3",
+      "deployers": ["0x5552e8b0BD553C299Fbf9731c92dD6C3B5AB3950"],
+      "chainlinkKeepers": [],
+      "serviceAccounts": [
+        {
+          "name": "Custom Oracle Executor",
+          "address": "0x8d096E2b5Fe29B914dB11F3ecE13b6E7F72fA2a2"
+        },
+        {
+          "name": "Solver Exec (autoS)",
+          "address": "0x84C75b7C35c121849DA06DF6946A6C9179B5edE2"
+        },
+        {
+          "name": "Solver Exec (sonicUSD)",
+          "address": "0xE71beF438317dC39c2c946809831A87EcE048857"
+        },
+        {
+          "name": "Liquidator",
+          "address": "0x28Fa1720cB4e311695CFaA726C2A34b028af0b97"
+        },
+        {
+          "name": "Swap Route Watcher",
+          "address": "0x0a3A597058fc2A344cCA32653ca082C775d8925d"
+        },
+        {
+          "name": "Debt Reporting",
+          "address": "0x6dE76a011706315bAf1eAad329B961B1B30D33C9"
+        }
+      ]
+    },
+    {
       "chainId": "8453",
       "systemName": "gen3",
       "deployers": ["0xba5e4322fe1c3c23Cb74304fE9537bF54a6B781E"],
@@ -129,6 +161,10 @@
         {
           "name": "Solver Exec (autoUSD)",
           "address": "0x187dD9E0BE80972Ab2D14b5A5F69C1f5540Ace57"
+        },
+        {
+          "name": "Solver Exec (autoDOLA)",
+          "address": "0x0460aE025d45C570D40c369e06e943cEB931Ac10"
         },
         {
           "name": "Incentive Harvester",
