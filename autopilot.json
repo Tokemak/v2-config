@@ -1,8 +1,60 @@
 {
   "systems": [
     {
+      "chainId": "42161",
+      "systemName": "gen3",
+      "systemRegistry": "0xBFd8E6C9bF2CD5466f5651746f8E946A6C7b4220",
+      "lens": "0x590A31453390A1bB266672156A87eFB1302FC754",
+      "subgraphPrimary": "https://subgraph.satsuma-prod.com/108d48ba91e3/tokemak/v2-gen3-arbitrum-mainnet/api",
+      "deployers": [
+        "0x2a4dc2220F052B761933D53025881d6337A10d27",
+        "0xa4b17c8d77A7ea0E532A8969E3455A3541bE1F3a"
+      ],
+      "chainlinkKeepers": [],
+      "serviceAccounts": [
+        {
+          "name": "Custom Oracle Executor",
+          "address": "0xEA86809D02B5C298455A4a24A584dADd591d8047",
+          "type": "pricing"
+        },
+        {
+          "name": "Solver Exec (arbUSD)",
+          "address": "0x7C943D75d60b9F2a54C3358411D1c48e554d3523",
+          "type": "solver"
+        },
+        {
+          "name": "Liquidator",
+          "address": "0xf7195324E2e98aeD647145F07EAcf764f1Ab3694",
+          "type": "rewards"
+        },
+        {
+          "name": "Swap Route Watcher",
+          "address": "0x18cdb39113e331c45151adac5bc48194590ef582",
+          "type": "swaps"
+        },
+        {
+          "name": "Debt Reporting",
+          "address": "0x1A65E4844a3AF0F1733ee9e1A474dc7DB3c396a3",
+          "type": "debtReporting"
+        },
+        {
+          "name": "Fluid Claim",
+          "address": "0x5bBb3eAaA3E7E1d2c57a19A23c8BD8be0Dd7dC68",
+          "type": "rewards"
+        },
+        {
+          "name": "Morpho Claim",
+          "address": "0xbD430fa1Ca43fD142bc6d44FC2b362d25CF95b02",
+          "type": "rewards"
+        }
+      ]
+    },
+    {
       "chainId": "146",
       "systemName": "gen3",
+      "systemRegistry": "0x1a912EB51D3cF8364eBAEE5A982cA37f25aD8848",
+      "lens": "0xCB7E450c32D21Eb0168466c8022Ae32EF785a163",
+      "subgraphPrimary": "https://subgraph.satsuma-prod.com/108d48ba91e3/tokemak/v2-gen3-sonic-mainnet2/api",
       "deployers": ["0x5552e8b0BD553C299Fbf9731c92dD6C3B5AB3950"],
       "chainlinkKeepers": [],
       "serviceAccounts": [
@@ -41,6 +93,9 @@
     {
       "chainId": "8453",
       "systemName": "gen3",
+      "systemRegistry": "0x18Dc926095A7A007C01Ef836683Fdef4c4371b4e",
+      "lens": "0xaF05c205444c5884F53492500Bed22A8f617Aa9C",
+      "subgraphPrimary": "https://subgraph.satsuma-prod.com/108d48ba91e3/tokemak/v2-gen3-base-mainnet/api",
       "deployers": ["0xba5e4322fe1c3c23Cb74304fE9537bF54a6B781E"],
       "chainlinkKeepers": [
         {
@@ -102,6 +157,9 @@
     {
       "chainId": "1",
       "systemName": "gen3",
+      "systemRegistry": "0x2218F90A98b0C070676f249EF44834686dAa4285",
+      "lens": "0x75455ae8c9B2Ff7Ae9F21ae06730d614c31D2300",
+      "subgraphPrimary": "https://ethereum-mainnet.graph-eu.p2pify.com/b920eafe09c6023695b2c3f7cdbc5b82/sgr-636-770-864",
       "deployers": ["0x123cC4AFA59160C6328C0152cf333343F510e5A3"],
       "chainlinkKeepers": [
         {
