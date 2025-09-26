@@ -1,6 +1,48 @@
 {
   "systems": [
     {
+      "chainName": "Plasma",
+      "isMainnet": true,
+      "chainId": "9745",
+      "systemName": "gen3",
+      "systemRegistry": "0x9065C0E33Bc8FB31A21874f399985e39bC187D48",
+      "lens": "0x8dBaD46D468d57fdd1FCbA0452C8cD4d7FaE72E8",
+      "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/9745",
+      "deployers": ["0xb100D9A0D894755bAe07f5707908A3E86Ccd4529"],
+      "chainlinkKeepers": [],
+      "publishAprs": true,
+      "publishToDefillama": true,
+      "serviceAccounts": [
+        {
+          "name": "Custom Oracle Executor",
+          "address": "0xEA86809D02B5C298455A4a24A584dADd591d8047",
+          "type": "pricing"
+        },
+        {
+          "name": "Solver Exec (plasmaUSD)",
+          "address": "0xc515973f040F6E709ED96Cf3a0099788B316010C",
+          "type": "solver"
+        },
+        {
+          "name": "Liquidator",
+          "address": "0xf7195324E2e98aeD647145F07EAcf764f1Ab3694",
+          "type": "rewards"
+        },
+        {
+          "name": "Swap Route Watcher",
+          "address": "0x18cdb39113e331c45151adac5bc48194590ef582",
+          "type": "swaps"
+        },
+        {
+          "name": "Debt Reporting",
+          "address": "0x1A65E4844a3AF0F1733ee9e1A474dc7DB3c396a3",
+          "type": "debtReporting"
+        }
+      ]
+    },
+    {
+      "chainName": "Arbitrum",
+      "isMainnet": true,
       "chainId": "42161",
       "systemName": "gen3",
       "systemRegistry": "0xBFd8E6C9bF2CD5466f5651746f8E946A6C7b4220",
@@ -11,6 +53,8 @@
         "0xa4b17c8d77A7ea0E532A8969E3455A3541bE1F3a"
       ],
       "chainlinkKeepers": [],
+      "publishAprs": true,
+      "publishToDefillama": true,
       "serviceAccounts": [
         {
           "name": "Custom Oracle Executor",
@@ -50,6 +94,8 @@
       ]
     },
     {
+      "chainName": "Sonic",
+      "isMainnet": true,
       "chainId": "146",
       "systemName": "gen3",
       "systemRegistry": "0x1a912EB51D3cF8364eBAEE5A982cA37f25aD8848",
@@ -57,6 +103,8 @@
       "subgraphPrimary": "https://subgraph.satsuma-prod.com/108d48ba91e3/tokemak/v2-gen3-sonic-mainnet2/api",
       "deployers": ["0x5552e8b0BD553C299Fbf9731c92dD6C3B5AB3950"],
       "chainlinkKeepers": [],
+      "publishAprs": true,
+      "publishToDefillama": true,
       "serviceAccounts": [
         {
           "name": "Custom Oracle Executor",
@@ -91,6 +139,8 @@
       ]
     },
     {
+      "chainName": "Base",
+      "isMainnet": true,
       "chainId": "8453",
       "systemName": "gen3",
       "systemRegistry": "0x18Dc926095A7A007C01Ef836683Fdef4c4371b4e",
@@ -111,6 +161,8 @@
           "deprecated": false
         }
       ],
+      "publishAprs": true,
+      "publishToDefillama": true,
       "serviceAccounts": [
         {
           "name": "Custom Oracle Executor",
@@ -155,6 +207,8 @@
       ]
     },
     {
+      "chainName": "Ethereum",
+      "isMainnet": true,
       "chainId": "1",
       "systemName": "gen3",
       "systemRegistry": "0x2218F90A98b0C070676f249EF44834686dAa4285",
@@ -193,6 +247,8 @@
           "deprecated": false
         }
       ],
+      "publishAprs": true,
+      "publishToDefillama": true,
       "serviceAccounts": [
         {
           "name": "Custom Oracle Executor",
