@@ -1,6 +1,46 @@
 {
   "systems": [
     {
+      "chainName": "Linea",
+      "isMainnet": true,
+      "chainId": "59144",
+      "systemName": "gen3",
+      "systemRegistry": "0x25f26Ec2e764c63F8D191dFE7f88c6646ca9F980",
+      "lens": "0x92537a95b45AB695ab3EbabFc1A3c3E27AF7973c",
+      "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/59144",
+      "deployers": ["0xfd60F231C20EB5Be2bF6B2f5B82fDA10Bd92b5bf", "0x68Dd19f7b5b10Ad77d657eD8E6Cfc44121Bf4f1f"],
+      "chainlinkKeepers": [],
+      "publishAprs": true,
+      "publishToDefillama": false,
+      "serviceAccounts": [
+        {
+          "name": "Custom Oracle Executor",
+          "address": "0xEA86809D02B5C298455A4a24A584dADd591d8047",
+          "type": "pricing"
+        },
+        {
+          "name": "Solver Exec (lineaUSD)",
+          "address": "0xe6E71Fd8a737317Baaa14200bb4E39dCF303B12B",
+          "type": "solver"
+        },
+        {
+          "name": "Liquidator",
+          "address": "0xf7195324E2e98aeD647145F07EAcf764f1Ab3694",
+          "type": "rewards"
+        },
+        {
+          "name": "Swap Route Watcher",
+          "address": "0x18cdb39113e331c45151adac5bc48194590ef582",
+          "type": "swaps"
+        },
+        {
+          "name": "Debt Reporting",
+          "address": "0x1A65E4844a3AF0F1733ee9e1A474dc7DB3c396a3",
+          "type": "debtReporting"
+        }
+      ]
+    },
+    {
       "chainName": "Plasma",
       "isMainnet": true,
       "chainId": "9745",
