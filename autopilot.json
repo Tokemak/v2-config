@@ -11,7 +11,7 @@
       "deployers": ["0xfd60F231C20EB5Be2bF6B2f5B82fDA10Bd92b5bf", "0x68Dd19f7b5b10Ad77d657eD8E6Cfc44121Bf4f1f"],
       "chainlinkKeepers": [],
       "publishAprs": true,
-      "publishToDefillama": false,
+      "publishToDefillama": true,
       "serviceAccounts": [
         {
           "name": "Custom Oracle Executor",
