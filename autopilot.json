@@ -301,6 +301,11 @@
           "type": "debtReporting"
         },
         {
+          "name": "Debt Reporting Multichain",
+          "address": "0x1A65E4844a3AF0F1733ee9e1A474dc7DB3c396a3",
+          "type": "debtReporting"
+        },        
+        {
           "name": "Swap Route Watcher",
           "address": "0xB17b69B4Cbb288aD2Caee9De2d8C3AD3C80017e6",
           "type": "swaps"
