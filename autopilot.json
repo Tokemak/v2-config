@@ -7,6 +7,7 @@
       "systemName": "gen3",
       "systemRegistry": "0x25f26Ec2e764c63F8D191dFE7f88c6646ca9F980",
       "lens": "0x92537a95b45AB695ab3EbabFc1A3c3E27AF7973c",
+      "rewarderAutoLoader": "0x2abFAd400361d49B40B24A894e0E417c4a8cEEc7",
       "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/59144",
       "deployers": ["0xfd60F231C20EB5Be2bF6B2f5B82fDA10Bd92b5bf", "0x68Dd19f7b5b10Ad77d657eD8E6Cfc44121Bf4f1f"],
       "chainlinkKeepers": [],
@@ -47,6 +48,7 @@
       "systemName": "gen3",
       "systemRegistry": "0x9065C0E33Bc8FB31A21874f399985e39bC187D48",
       "lens": "0x8dBaD46D468d57fdd1FCbA0452C8cD4d7FaE72E8",
+      "rewarderAutoLoader": "0x7246D6ec88AE9c0fEb2517dF56b217d23E693050",
       "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/9745",
       "deployers": ["0xb100D9A0D894755bAe07f5707908A3E86Ccd4529"],
       "chainlinkKeepers": [],
@@ -87,6 +89,7 @@
       "systemName": "gen3",
       "systemRegistry": "0xBFd8E6C9bF2CD5466f5651746f8E946A6C7b4220",
       "lens": "0x590A31453390A1bB266672156A87eFB1302FC754",
+      "rewarderAutoLoader": "0xa117337d7B8797db2B31D4Ee393c15F50630BF38",
       "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/42161",
       "deployers": [
         "0x2a4dc2220F052B761933D53025881d6337A10d27",
@@ -185,6 +188,7 @@
       "systemName": "gen3",
       "systemRegistry": "0x18Dc926095A7A007C01Ef836683Fdef4c4371b4e",
       "lens": "0xaF05c205444c5884F53492500Bed22A8f617Aa9C",
+      "rewarderAutoLoader": "0x7246D6ec88AE9c0fEb2517dF56b217d23E693050",
       "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/8453",
       "deployers": ["0xba5e4322fe1c3c23Cb74304fE9537bF54a6B781E"],
       "chainlinkKeepers": [
@@ -253,6 +257,7 @@
       "systemName": "gen3",
       "systemRegistry": "0x2218F90A98b0C070676f249EF44834686dAa4285",
       "lens": "0x75455ae8c9B2Ff7Ae9F21ae06730d614c31D2300",
+      "rewarderAutoLoader": "0xa90328D46cE441718B9a602aABbE6A8C25d8D848",
       "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/1",
       "deployers": ["0x123cC4AFA59160C6328C0152cf333343F510e5A3"],
       "chainlinkKeepers": [
