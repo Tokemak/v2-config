@@ -1,6 +1,41 @@
 {
   "systems": [
     {
+      "chainName": "Monad",
+      "isMainnet": true,
+      "chainId": "143",
+      "systemName": "gen3",
+      "systemRegistry": "0x0ED955673c18d7BfFa4f1e5c84b66577DbcDE632",
+      "lens": "0xfE10F2D645Cb2B1100de6D1B872b67af1D1DBfFb",
+      "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/143",
+      "deployers": ["0x2a4dc2220F052B761933D53025881d6337A10d27"],
+      "chainlinkKeepers": [],
+      "publishAprs": false,
+      "publishToDefillama": false,
+      "serviceAccounts": [
+        {
+          "name": "Custom Oracle Executor",
+          "address": "0xEA86809D02B5C298455A4a24A584dADd591d8047",
+          "type": "pricing"
+        },
+        {
+          "name": "Liquidator",
+          "address": "0xf7195324E2e98aeD647145F07EAcf764f1Ab3694",
+          "type": "rewards"
+        },
+        {
+          "name": "Swap Route Watcher",
+          "address": "0x18cdb39113e331c45151adac5bc48194590ef582",
+          "type": "swaps"
+        },
+        {
+          "name": "Debt Reporting",
+          "address": "0x1A65E4844a3AF0F1733ee9e1A474dc7DB3c396a3",
+          "type": "debtReporting"
+        }
+      ]
+    },
+    {
       "chainName": "Linea",
       "isMainnet": true,
       "chainId": "59144",
