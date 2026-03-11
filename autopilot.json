@@ -233,6 +233,7 @@
       "systemRegistry": "0x18Dc926095A7A007C01Ef836683Fdef4c4371b4e",
       "lens": "0xaF05c205444c5884F53492500Bed22A8f617Aa9C",
       "liquidator": "0x7571dE594A92379c0A053E2A5004514057c10B5D",
+      "liquidatorExecutor": "0xC48496728F2ce7EEB27B3017D96a4c0d95005E9a",
       "rewarderAutoLoader": "0x7246D6ec88AE9c0fEb2517dF56b217d23E693050",
       "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/8453",
       "deployers": ["0xba5e4322fe1c3c23Cb74304fE9537bF54a6B781E"],
