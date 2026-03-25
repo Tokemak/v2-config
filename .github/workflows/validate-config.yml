@@ -1,0 +1,28 @@
+name: Validate Config
+
+on:
+  push:
+    paths:
+      - "autopilot.json"
+      - "autopilot.schema.json"
+  pull_request:
+    paths:
+      - "autopilot.json"
+      - "autopilot.schema.json"
+
+jobs:
+  validate:
+    name: Validate autopilot.json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli@5.0.0 ajv-formats@3.0.1
+
+      - name: Validate autopilot.json against schema
+        run: ajv validate -s autopilot.schema.json -d autopilot.json --spec=draft7 -c ajv-formats
