@@ -6,12 +6,12 @@
       "chainId": "143",
       "systemName": "gen3",
       "hypernativeChainName": "monad",
-      "systemRegistry": "0x0ED955673c18d7BfFa4f1e5c84b66577DbcDE632",
-      "lens": "0xfE10F2D645Cb2B1100de6D1B872b67af1D1DBfFb",
-      "liquidator": "0x2d534d43D497B579F5c6dAcBBAfEfa0a2e56b01C",
-      "liquidatorExecutor": "0x7D65090230a9b8D6fFcA630DA447DcfE83eb5482",
+      "systemRegistry": "0x92872Ba7775aA1d7bcF48Ef4486468aBF4367057",
+      "lens": "0xfC8c327a64B272193826dAA37505B0e7760f8Db5",
+      "liquidator": "0x11e41e5ea303AA4d9443d97B9b4D661A7225b6dd",
+      "liquidatorExecutor": "0x88880D6EeE1419f941CbE87E64615B7B3Da8be01",
       "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/143",
-      "deployers": ["0x2a4dc2220F052B761933D53025881d6337A10d27"],
+      "deployers": ["0x86CA921b34AB27b4369b67b2dEC9E6e4c6738A83"],
       "chainlinkKeepers": [],
       "publishAprs": false,
       "publishToDefillama": false,
@@ -35,6 +35,11 @@
           "name": "Debt Reporting",
           "address": "0x1A65E4844a3AF0F1733ee9e1A474dc7DB3c396a3",
           "type": "debtReporting"
+        },
+        {
+          "name": "Solver Exec (monUSD)",
+          "address": "0x80b8D17574480880a3a9719BD789443C5a51DEDA",
+          "type": "solver"
         }
       ]
     },
