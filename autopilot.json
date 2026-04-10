@@ -13,7 +13,7 @@
       "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/143",
       "deployers": ["0x86CA921b34AB27b4369b67b2dEC9E6e4c6738A83"],
       "chainlinkKeepers": [],
-      "publishAprs": false,
+      "publishAprs": true,
       "publishToDefillama": false,
       "serviceAccounts": [
         {
