@@ -10,6 +10,7 @@
       "lens": "0xfC8c327a64B272193826dAA37505B0e7760f8Db5",
       "liquidator": "0x11e41e5ea303AA4d9443d97B9b4D661A7225b6dd",
       "liquidatorExecutor": "0x88880D6EeE1419f941CbE87E64615B7B3Da8be01",
+      "rewarderAutoLoader": "0x2d471f0D52d4b45F1a48aA76C9373c557e0A71B8",
       "subgraphPrimary": "https://subgraph.tokemaklabs.com/api/graphql/143",
       "deployers": ["0x86CA921b34AB27b4369b67b2dEC9E6e4c6738A83"],
       "chainlinkKeepers": [],
