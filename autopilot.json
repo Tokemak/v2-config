@@ -310,6 +310,16 @@
           "name": "Liquidator",
           "address": "0xf7195324E2e98aeD647145F07EAcf764f1Ab3694",
           "type": "rewards"
+        },
+        {
+          "name": "Solver Exec (baseEUR)",
+          "address": "0xE23393214B6256DDaCBc4c00C663B9DA42cFA3F8",
+          "type": "solver"
+        },
+        {
+          "name": "Solver Exec (ottoUSD)",
+          "address": "0xc67d2C63Ac6755E6164430c144d283D92230fEEc",
+          "type": "solver"
         }
       ]
     },
