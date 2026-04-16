@@ -305,6 +305,11 @@
           "name": "ZK Bridge",
           "address": "0x19E613AC726449154d47d5Aa156f6c91C5F1C3CF",
           "type": "stats"
+        },
+                {
+          "name": "Liquidator",
+          "address": "0xf7195324E2e98aeD647145F07EAcf764f1Ab3694",
+          "type": "rewards"
         }
       ]
     },
@@ -444,6 +449,11 @@
         {
           "name": "Morpho Reward Claiming",
           "address": "0x77601882d70b3a391d2be4204c386d91037ac806",
+          "type": "rewards"
+        },
+                {
+          "name": "Liquidator",
+          "address": "0xf7195324E2e98aeD647145F07EAcf764f1Ab3694",
           "type": "rewards"
         }
       ]
