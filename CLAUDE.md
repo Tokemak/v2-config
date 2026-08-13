@@ -11,8 +11,8 @@ https://v2-config.tokemaklabs.com/ outside the cluster). Editing an address here
 Job on the cluster: `v2-config`.
 
 - **Build:** `pnpm build` on branch `nomad`
-- **Procedure + secrets:** `v2-nomad-infra/docs/runbooks/deploy.md`
-- **Per-job facts:** `v2-nomad-infra/docs/fleet/deploy-registry.json`, or `node .claude/skills/deploy/resolve.mjs <job>` from that repo
+- **Procedure + secrets:** `v2-nomad-infra/docs/deploy/runbook.md`
+- **Per-job facts:** `v2-nomad-infra/docs/deploy/registry.json`, or `node .claude/skills/deploy/resolve.mjs <job>` from that repo
 - **Skill:** `/deploy <job>` — run it from **v2-nomad-infra**, where the HCLs live
 <!-- /nomad-deploy-pointer -->
 
@@ -20,7 +20,7 @@ Job on the cluster: `v2-config`.
 ## Tokemak conventions
 
 Shared across every backend repo. Source of truth:
-`v2-nomad-infra/docs/shared/tokemak-conventions.md` — edit there, then run
+`v2-nomad-infra/docs/conventions/tokemak-conventions.md` — edit there, then run
 `python3 scripts/sync-claude-md.py`. Do not edit this block in place; it is overwritten.
 
 ### Chains
@@ -78,7 +78,7 @@ name **is** the account id (`AWS_PROFILE=247562657424`). Region is `us-east-1` e
 
 Signing keys are never copied between accounts. The Nomad EC2 role is granted `kms:Sign`
 on the key in its own account, out of band — see
-`v2-nomad-infra/docs/runbooks/grant-cross-account-kms.md`. A `cdk deploy` on
+`v2-nomad-infra/docs/deploy/kms-cross-account.md`. A `cdk deploy` on
 TokemakNomadStack would **replace the production instance**; the stack has drifted.
 
 ### Branches
