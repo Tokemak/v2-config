@@ -71,6 +71,12 @@ reference while the files stay on disk. Read them on the instance:
 `/opt/nomad/data/alloc/*/alloc/logs/*.stdout.*` over SSM. Legacy Lambda logs are in that
 account's CloudWatch.
 
+### Alerts
+
+All alerting lives in `v2-nomad-infra/alerting/` — coded alerts over ClickHouse data.
+The HyperDX rules were deleted 2026-06-12: never create a HyperDX rule or run
+`pnpm alerts:apply`. App-side `alerts.ts` files are historical specs, nothing applies them.
+
 ### AWS
 
 One SSO session covers every account: `aws sso login --sso-session tokemak`. The profile
