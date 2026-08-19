@@ -437,11 +437,6 @@
           "type": "stats"
         },
         {
-          "name": "Keeper Executor",
-          "address": "0x6b9d01f42a4e93aebd412c24d6f3b949eef500be",
-          "type": "stats"
-        },
-        {
           "name": "Auto Rewards (Signer/RewardHash)",
           "address": "0x923720b4aa90cdec2c241682f89e6bf02febd509",
           "type": "stoke"
